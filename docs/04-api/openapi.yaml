@@ -1,0 +1,34 @@
+openapi: 3.0.3
+info:
+  title: FoodBook Pro API
+  version: 1.0.0
+paths:
+  /restaurants:
+    get:
+      summary: Obtener restaurantes
+      responses:
+        '200':
+          description: Lista de restaurantes
+  /tables:
+    get:
+      summary: Obtener mesas
+      responses:
+        '200':
+          description: Lista de mesas
+  /reservations:
+    get:
+      summary: Obtener reservas
+      responses:
+        '200':
+          description: Lista de reservas
+    post:
+      summary: Crear reserva
+      responses:
+        '201':
+          description: Reserva creada
+  /customers:
+    get:
+      summary: Obtener clientes
+      responses:
+        '200':
+          description: Lista de clientes

@@ -1,0 +1,3 @@
+# FoodBookPro.SharedKernel
+
+Abstracciones compartidas.

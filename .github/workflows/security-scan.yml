@@ -1,0 +1,13 @@
+name: Security Scan
+
+on:
+  pull_request:
+    branches: [ "main", "develop" ]
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Placeholder security scan
+        run: echo "Integrar aquí SAST, secret scanning y dependency scanning"

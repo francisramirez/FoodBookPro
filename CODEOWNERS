@@ -1,0 +1,5 @@
+* @arquitectura @backend-team
+/docs/ @arquitectura @analista-funcional
+/src/ @backend-team
+/tests/ @qa-team @backend-team
+/infra/ @devops-team
